@@ -40,8 +40,8 @@ export default function TopNav() {
         }
         <div className={ sideNav ? 'fixed top-0 left-0 w-[300px] h-screen bg-white z-10 duration-300'
              : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-white z-10 duration-300'}>
-            <AiOutlineClose className="text-black absolute right-4 top-4 cursor-pointer mt-9" size={25} onClick={() => setSideNav(!sideNav)}></AiOutlineClose>
-            <h2 className="text-3xl p-4 text-black mt-8">Yum <span className="text-orange-700 font-bold">Eat</span></h2>
+            <AiOutlineClose className="text-black absolute right-9 top-4 cursor-pointer mt-9" size={28} onClick={() => setSideNav(!sideNav)}></AiOutlineClose>
+            <h2 className="text-3xl p-4 text-black mt-8 ml-9">Yum <span className="text-orange-700 font-bold">Eat</span></h2>
             <nav>
                 <ul className="flex flex-col p-4 text-gray-900 mt-6">
                     <li className="text-xl py-5 flex">
