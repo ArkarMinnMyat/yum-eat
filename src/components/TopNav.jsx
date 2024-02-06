@@ -10,11 +10,11 @@ export default function TopNav() {
   return (
     <div className="max-w-[1520] mx-auto flex justify-between items-center p-4 bg-slate-600 text-white">
         <div className="flex items-center">
-            <div className="cursor-pointer" onClick={() => setSideNav(!sideNav)}>
-                <AiOutlineMenu size={25} />
+            <div className="cursor-pointer m-4 font-bold" onClick={() => setSideNav(!sideNav)}>
+                <AiOutlineMenu size={27} />
             </div>
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-                Yum <span className="text-red">Eats</span>
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2 font-bold">
+                Yum <span className="text-orange-500">Eats</span>
             </h1>
             <div className="hidden md:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
                 <p className="bg-orange-700 text-white rounded-full p-2 font-bold">Free</p>
@@ -27,7 +27,7 @@ export default function TopNav() {
             className="bg-transparent p-2 w-full focus:outline-none" 
             placeholder="Search Meals"/>
         </div>
-        <button className="bg-orange-700 text-white hidden md:flex items-center p-2 rounded-full">
+        <button className="bg-orange-700 text-white hidden lg:flex items-center p-2 rounded-full">
             <BsFillCartFill size={20} /> Cart
         </button>
         {
