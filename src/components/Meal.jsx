@@ -35,7 +35,7 @@ const Meal = () => {
                         <img src={item.image} alt={item.name} className='w-full h-[200px] object-cover rounded'/>
                         <div className='flex justify-between py-2 px-4'>
                             <p className='font-bold'>{item.name}</p>
-                            <p className='bg-orange-700 h-18 w-20 text-center -mt-8 hover:bg-[#00df9a] hover:text-black text-white border-5 py-4 rounded-full'>{item.price}</p>
+                            <p className='bg-orange-700 h-18 w-20 text-center -mt-8 hover:bg-white hover:text-orange-700 text-white border-5 py-4 rounded-full'>{item.price}</p>
                         </div>
                         <div className='pl-2 py-4'>
                             <a href='#' className='flex item-center text-indigo-600'>
