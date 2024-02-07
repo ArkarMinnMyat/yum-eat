@@ -18,13 +18,13 @@ const Meal = () => {
         </h1>
         <div className='flex flex-col lg:flex-row justify-center'>
             <div className='flex justify-center md:justify-center my-5'>
-                <button className='mx-10 py-1 px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 '
+                <button className='mx-1 py-1 px-5 md:mx-10 md:py-1 md:px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 '
                                     onClick={() => setFoods(mealData)}>All</button>
-                <button className='mx-10 py-1 px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 ' 
+                <button className='mx-1 py-1 px-5 md:mx-10 md:py-1 md:px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 ' 
                                     onClick={() => filterCategory("pizza")}>Pizza</button>
-                <button className='mx-10 py-1 px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 '
+                <button className='mx-1 py-1 px-5 md:mx-10 md:py-1 md:px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 '
                                     onClick={() => filterCategory("chicken")}>Chicken</button>
-                <button className='mx-10 py-1 px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 '
+                <button className='mx-1 py-1 px-5 md:mx-10 md:py-1 md:px-10 rounded-2xl border-orange-700 text-white bg-orange-700 hover:bg-white hover:text-orange-700 '
                                     onClick={() => filterCategory("salad")}>Salad</button>
             </div>
         </div>

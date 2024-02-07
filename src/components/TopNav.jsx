@@ -51,7 +51,9 @@ export default function TopNav() {
                     <li className="text-xl py-5 flex">
                         <TbTruckReturn size={25} className="mr-4 text-white bg-black rounded-full" />
                         Delivery
-                    </li>
+                    </li>Footer
+Footer
+Footer
                     <li className="text-xl py-5 flex">
                         <MdOutlineFavorite size={25} className="mr-4 text-white bg-black rounded-full" />
                         My Favourite
