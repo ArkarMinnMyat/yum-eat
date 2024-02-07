@@ -27,7 +27,7 @@ export default function TopNav() {
             className="bg-transparent p-2 w-full focus:outline-none" 
             placeholder="Search Meals"/>
         </div>
-        <button className="bg-orange-700 text-white hidden lg:flex items-center p-2 rounded-full">
+        <button className="bg-orange-700 hover:bg-orange-800 text-white hidden lg:flex items-center p-2 rounded-full">
             <BsFillCartFill size={20} /> Cart
         </button>
         {
@@ -46,7 +46,7 @@ export default function TopNav() {
                 <ul className="flex flex-col p-4 text-gray-900 mt-6">
                     <li className="text-xl py-5 flex">
                         <BsPerson size={25} className="mr-4 text-white bg-black rounded-full" />
-                        My Account
+                        <a href="#" className="hover:text-red-200">My Account</a>
                     </li>
                     <li className="text-xl py-5 flex">
                         <TbTruckReturn size={25} className="mr-4 text-white bg-black rounded-full" />

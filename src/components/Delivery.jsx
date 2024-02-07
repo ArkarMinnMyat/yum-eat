@@ -14,7 +14,7 @@ const Delivery = () => {
                 </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iste repellat eligendi est, nam tenetur vel sunt nobis minus fugiat, maxime assumenda saepe eaque ipsa necessitatibus harum nisi. Sint, magni?
                 Nulla quaerat esse quos, iste deserunt qui excepturi? Temporibus, blanditiis officia, illo quibusdam fugiat atque ad nihil reprehenderit minima laboriosam eligendi quia non accusamus velit numquam nisi alias amet nobis.</p>
-                <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
+                <button className='bg-black hover:bg-[#00df9a] hover:text-orange-500 text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
             </div>
         </div>
     </div>
