@@ -13,7 +13,7 @@ const NewsLetter = () => {
                     <input type="email" placeholder='Email' className='p-3 flex w-full rounded-md text-black' />
                     <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-3 px-4 my-3 py-3' >Notify Me</button>
                 </div>
-                <p className='mt-7'>We are concerned about security of your data,Read("")
+                <p className='mt-7'>We are concerned about security of your data,Read
                     <span className='text-[#00df9a]'>Privacy Policy</span>
                 </p>
             </div>
